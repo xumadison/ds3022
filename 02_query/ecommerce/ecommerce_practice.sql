@@ -1,5 +1,7 @@
 -- ============================================================
 -- Practice e-commerce database
+
+
 -- ============================================================
 -- A deliberately oversimplified e-commerce schema for practicing
 -- CRUD (Create, Read, Update, Delete) operations in DuckDB.
@@ -12,6 +14,7 @@
 --                a product, and (via the product) a vendor
 --
 -- Foreign keys (customer_id, product_id, vendor_id in orders)
+-- FK ^
 -- are NOT enforced with FOREIGN KEY constraints. This is
 -- intentional -- we're assuming the INSERT data is already
 -- correct, and keeping the DDL simple for teaching purposes.
